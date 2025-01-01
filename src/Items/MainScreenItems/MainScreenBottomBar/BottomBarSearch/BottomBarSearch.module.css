@@ -1,0 +1,39 @@
+.BottomBar_Search_Container {
+  display: flex;
+  align-items: center;
+  border-radius: 16px;
+  height: 30px;
+  padding: 0px 12px;
+  gap: 8px;
+  background-color: #ffffff;
+}
+.BottomBar_Search_Container:hover {
+  background-color: #f0f0f0;
+}
+
+.BottomBar_Search_Container:hover:has(.BottomBar_Search_Input:focus) {
+  background-color: #ffffff;
+}
+
+.BottomBar_Search_Input {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  height: 100%;
+  flex-grow: 1;
+}
+
+.BottomBar_Search_Input:focus {
+  outline: none;
+}
+
+.BottomBar_Search_Container:has(.BottomBar_Search_Input:focus)
+  .BottomBar_Search_Icon {
+  color: #0d7fd5;
+}
+
+.BottomBar_Search_Icon {
+  display: flex;
+  align-items: center;
+}

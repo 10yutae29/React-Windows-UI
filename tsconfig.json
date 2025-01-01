@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "declaration": true, // 타입 선언 파일 생성
+    // "emitDeclarationOnly": true, // 선언 파일만 출력
+    "outDir": "dist", // 출력 폴더
+    "skipLibCheck": true, // 의존성 타입 검사를 건너뜀
+    "esModuleInterop": true, // ES 모듈 호환성
+    "jsx": "react-jsx", // JSX 지원
+    "target": "ESNext", // ESNext로 컴파일
+    "moduleResolution": "node"
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"],
+  "allowJs": true // JS와 JSX 파일도 처리
+}

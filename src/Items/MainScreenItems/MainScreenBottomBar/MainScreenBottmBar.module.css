@@ -1,0 +1,19 @@
+.MainScreen_BottomBar_Container {
+  width: calc(100%-8px);
+  height: 40px;
+  padding: 4px;
+  background-color: rgb(214, 224, 246);
+  border-top: 1px solid rgb(115, 139, 195);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.MainScreen_BottomBar_Middle_Container {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 6px;
+}

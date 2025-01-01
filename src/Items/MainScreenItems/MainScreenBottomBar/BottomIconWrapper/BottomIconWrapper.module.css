@@ -1,0 +1,12 @@
+.Icon_Wrapper_Container {
+  border-radius: 5px;
+  height: 100%;
+  padding: 0px 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Icon_Wrapper_Container:hover {
+  background-color: rgba(234, 239, 250, 0.849);
+}

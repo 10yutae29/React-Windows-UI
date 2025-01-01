@@ -1,0 +1,54 @@
+{
+  "name": "react-windows-ui",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "10yutae29",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "./dist/types/index.d.ts",
+  "keywords": [
+    "React",
+    "Component",
+    "Windows",
+    "Windows11",
+    "UI Component"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/types/index.d.ts"
+    },
+    "./react-windows-ui-style": {
+      "import": "./dist/index.css",
+      "types": "./dist/global.d.ts"
+    }
+  },
+  "files": [
+    "./dist/",
+    "dist/global.d.ts"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx rollup -c"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.26.3",
+    "@babel/preset-typescript": "^7.26.0",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "rollup": "^4.29.1",
+    "rollup-plugin-copy": "^3.5.0",
+    "rollup-plugin-postcss": "^4.0.2",
+    "tslib": "^2.8.1",
+    "typescript": "^5.7.2"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0"
+  }
+}
