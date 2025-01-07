@@ -8,10 +8,7 @@ export default function MainScreenBackground({
       {backgroundImg === null ? (
         <div className={styles.MainScreen_Background_Default} />
       ) : (
-        <div
-          className={styles.MainScreen_Background_Img}
-          style={{ backgroundImage: backgroundImg }}
-        />
+        <img className={styles.MainScreen_Background_Img} src={backgroundImg} />
       )}
     </div>
   );
