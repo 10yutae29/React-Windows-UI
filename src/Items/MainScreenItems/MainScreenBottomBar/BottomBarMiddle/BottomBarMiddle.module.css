@@ -1,0 +1,8 @@
+.MainScreen_BottomBar_Middle_Container {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 6px;
+}

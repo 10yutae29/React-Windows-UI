@@ -11,6 +11,8 @@ export default function BottomBarSearch() {
         className={styles.BottomBar_Search_Input}
         type="text"
         placeholder="검색"
+        // TODO change to state
+        onBlur={(e) => (e.target.value = "")}
       />
     </div>
   );

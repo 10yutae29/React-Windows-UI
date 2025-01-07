@@ -21,14 +21,14 @@ export const SearchIcon = () => (
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <circle cx="6" cy="6" r="5.1" stroke="currentColor" stroke-width="1.8" />
+    <circle cx="6" cy="6" r="5.1" stroke="currentColor" strokeWidth="1.8" />
     <line
       x1="8.6364"
       y1="9.3636"
       x2="13.6364"
       y2="14.3636"
       stroke="currentColor"
-      stroke-width="1.8"
+      strokeWidth="1.8"
     />
   </svg>
 );
