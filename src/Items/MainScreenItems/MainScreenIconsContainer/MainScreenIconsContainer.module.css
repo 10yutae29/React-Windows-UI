@@ -1,7 +1,12 @@
 .MainScreen_Icons_Container {
-  width: 100%;
   height: 100%;
   position: absolute;
   left: 0;
   top: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: flex-start;
+  padding: 4px 4px;
 }

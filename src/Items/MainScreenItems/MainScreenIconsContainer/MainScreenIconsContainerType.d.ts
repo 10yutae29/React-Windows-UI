@@ -1,13 +1,5 @@
-import { ReactElement } from "react";
+import { IconType } from "../MainScreenIcon/MainScreenIconType";
 
 export interface MainScreenIconsContainerProps {
   icons: IconType[];
-}
-
-export interface IconType {
-  name: string;
-  img: string | SVGAElement;
-  onClick?(): void;
-  type: "folder" | "file";
-  element?: ReactElement;
 }

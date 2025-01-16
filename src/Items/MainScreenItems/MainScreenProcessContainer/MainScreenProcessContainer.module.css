@@ -1,0 +1,11 @@
+.MainScreen_Process_Container {
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: aquamarine;
+}
+.asd {
+  width: 200px;
+}

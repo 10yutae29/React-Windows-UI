@@ -7,8 +7,8 @@ export default function MainScreenIconsContainer({
 }: MainScreenIconsContainerProps) {
   return (
     <div className={styles.MainScreen_Icons_Container}>
-      {icons.map((icon) => (
-        <MainScreenIcon icon={icon} />
+      {icons.map((icon, idx) => (
+        <MainScreenIcon key={idx} icon={icon} />
       ))}
     </div>
   );

@@ -1,0 +1,41 @@
+.MainScreen_Icon_Container {
+  width: 76px;
+  height: 88px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  user-select: none;
+}
+
+.MainScreen_Icon_Area {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2px;
+}
+
+.MainScreen_Icon_Area:hover {
+  background-color: #ffffff75;
+  border-radius: 3px;
+}
+
+.MainScreen_Icon_Img {
+  width: 50px;
+  height: 50px;
+}
+
+.MainScreen_Icon_Name {
+  margin: 0;
+  width: 100%;
+  font-size: 14px;
+  overflow: hidden;
+  text-wrap: wrap;
+  text-overflow: ellipsis;
+  text-align: center;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  word-break: break-word;
+  -webkit-box-orient: vertical;
+}
